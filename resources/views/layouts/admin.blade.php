@@ -9,7 +9,7 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="surfside media" />
+    <meta name="author" content="Buy Buddy" />
     
     <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/animation.css') }}">
@@ -162,8 +162,8 @@
                                  <li class="menu-item">
                                     <form method="post" action="{{ route('logout') }}" id="logout-form">
                                         @csrf
-                                        <a href="{{ route('logout') }}" class="" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
+                                            <a href="{{ route('logout') }}" class="" onclick="event.preventDefault();
+                                                        document.getElementById('logout-form').submit();">
                                             <div class="icon"><i class="icon-settings"></i></div>
                                             <div class="text">Logout</div>
                                         </a>

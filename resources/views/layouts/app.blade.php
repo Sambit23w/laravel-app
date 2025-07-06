@@ -9,7 +9,7 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="surfside media" />
+    <meta name="author" content="Buy Buddy" />
     <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link
@@ -511,7 +511,7 @@
             </a>
           </div>
           <p class="footer-address">123 Beach Avenue, Surfside City, CA 00000</p>
-          <p class="m-0"><strong class="fw-medium">contact@Buy Buddy.in</strong></p>
+          <p class="m-0"><strong class="fw-medium">contact@BuyBuddy.in</strong></p>
           <p><strong class="fw-medium">+1 000-000-0000</strong></p>
 
           <ul class="social-links list-unstyled d-flex flex-wrap mb-0">
@@ -609,7 +609,7 @@
 
     <div class="footer-bottom">
       <div class="container d-md-flex align-items-center">
-        <span class="footer-copyright me-auto">©2024 Surfside Media</span>
+        <span class="footer-copyright me-auto">©2024 Buy Buddy</span>
         <div class="footer-settings d-md-flex align-items-center">
           <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms-conditions.html">Terms &amp;
             Conditions</a>
