@@ -24,7 +24,7 @@ This Laravel 12 project includes:
 •	- Node.js & NPM (for frontend assets)
 📥 Clone the Repository
 
-git clone https://github.com/yourusername/laravel12-project.git
+git clone branch-name
 cd laravel12-project
 
 📦 Install PHP Dependencies
@@ -179,10 +179,8 @@ php artisan test
 4. Push to the branch
 5. Open a Pull Request
 ---
-🧑💻 Maintainer
-👤 **Your Name**
-📧 your.email@example.com
-🌐 [yourportfolio.com](https://yourportfolio.com)
+## 🧑‍💻 Maintainer
+👤 **Sambit Pattanaik**
 ---
 📄 License
 This project is open-source and available under the [MIT License](LICENSE).
