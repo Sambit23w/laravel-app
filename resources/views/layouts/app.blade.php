@@ -470,7 +470,7 @@
             </div>
             @else                    
             <div class="header-tools__item hover-container">
-                <a class="header-tools__item" href="{{ Auth::user()->utype=='ADM' ? route('admin.index') : route('user.account.dashboard')}}">
+                <a class="header-tools__item" href="{{ Auth::user()->utype==='ADM' ? route('admin.index') : route('user.index') }}">
                 <span class="pr-6px">{{Auth::user()->name}}</span>
                 <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <use href="#icon_user" />
@@ -507,11 +507,11 @@
         <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
           <div class="logo">
             <a href="{{route('home.index')}}">
-              <img src="{{ asset('assets/images/logo.png') }}" alt="SurfsideMedia" class="logo__image d-block" />
+              <img src="{{ asset('assets/images/logo.png') }}" alt="Buy Buddy" class="logo__image d-block" />
             </a>
           </div>
           <p class="footer-address">123 Beach Avenue, Surfside City, CA 00000</p>
-          <p class="m-0"><strong class="fw-medium">contact@surfsidemedia.in</strong></p>
+          <p class="m-0"><strong class="fw-medium">contact@Buy Buddy.in</strong></p>
           <p><strong class="fw-medium">+1 000-000-0000</strong></p>
 
           <ul class="social-links list-unstyled d-flex flex-wrap mb-0">
